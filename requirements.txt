@@ -1,0 +1,7 @@
+# Core Python libraries used in the ChromaDB Manager
+# Note: These are standard libraries, so no specific version pinning is required
+# Logging, OS, SQLite, and Hashlib are built-in Python libraries
+# Datetime is also a standard library 
+
+# Specify Python version
+python==3.11.0 

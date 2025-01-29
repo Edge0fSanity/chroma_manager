@@ -1,4 +1,26 @@
-/.venv
-/data/*
-/db/*
-/logs/*
+# Ignore contents of specific directories, but keep the directories themselves
+data/*
+!data/.gitkeep
+
+db/*
+!db/.gitkeep
+
+logs/*
+!logs/.gitkeep
+
+# Python-specific ignores
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Misc system files
+.DS_Store
+Thumbs.db
